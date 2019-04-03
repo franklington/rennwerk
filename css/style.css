@@ -97,7 +97,7 @@ nav a:hover, nav a:active, nav .active a:link, nav .active a:visited {
 nav li a {
     border-radius: 10px;
     -moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
+	  -webkit-border-radius: 5px;
 }
 
 nav ul {
@@ -291,16 +291,18 @@ nav ul li a {display:block; text-align: center; width:310px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  background-attachment: fixed;
+  padding: 0px;
+  margin:0px;
 
-  width: 100vw;
   height: 100vh;
-  text-align: center;
+
 
 }
 
 .hero-text{
-  display: inline-block;
-
+  display: block;
+  text-align: center;
   background-color: black;
   color: white;
   font-size: 6vw;
