@@ -30,8 +30,8 @@ body {
 
 .body {
     clear: both;
-    margin: 0 auto;
-    width: 95%;
+    /*margin: 0 auto;
+    width: 95%;*/
 }
 
 
@@ -283,4 +283,33 @@ nav ul li a {display:block; text-align: center; width:310px;
     display:block;
 }
 
+}
+
+
+.hero-image{
+  background-image: url("https://picsum.photos/1920/1080");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+
+}
+
+.hero-text{
+  display: inline-block;
+
+  background-color: black;
+  color: white;
+  font-size: 6vw;
+  padding: 10px;
+
+
+  /*centering text*/
+  position: absolute;
+  left: 50%;
+  top:50%;
+  transform: translate(-50%, -50%);
 }
