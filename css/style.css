@@ -1,0 +1,286 @@
+* {
+    box-sizing: border-box;
+}
+/* Font Import From Google*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+
+
+/*body {
+    background-image: url(../img/christmas-colour.png);
+    background-repeat: repeat;
+    background-attachment: scroll, fixed;
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-size: 0.8em;
+    line-height: 1.7;
+} */
+
+body {
+    background-color: dimgrey;
+    font-family: 'OpenSans', serif;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-size: 0.8em;
+    line-height: 1.7;
+}
+
+.body {
+    clear: both;
+    margin: 0 auto;
+    width: 95%;
+}
+
+
+
+.wrapper {
+    width: 80%;
+    margin: 30px auto;
+
+}
+
+
+h1 {
+    font-size: 1.4em;
+    font-style: oblique;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 1,2em;
+    font-style: oblique;
+    font-weight: 300;
+}
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+nav {
+	background-color:#333333;
+    font-size: 1.1em;
+	height: 30px;
+    line-height: 30px;
+    margin: 0 auto 30px auto;
+    text-align: center;
+    border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+
+nav a {
+    text-decoration:none;
+    color: dimgrey;
+}
+
+nav a:link, nav a:visited {
+    color:#FFF;
+    display: inline-block;
+	height: 30px;
+	padding: 0px 23px;
+	text-decoration: none;
+}
+
+nav a:hover, nav a:active, nav .active a:link, nav .active a:visited {
+    color:#FFF;
+    background: #777;
+}
+
+nav li a {
+    border-radius: 10px;
+    -moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0 auto;
+
+}
+
+nav ul li {
+    float: left;
+    display: inline;
+    padding: 0px 10px;
+}
+
+
+.Main {
+	line-height: 30px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+.Inhalt {
+    width: 68%;
+	float: left;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.InhaltGalerie {
+    width: 100%;
+	float: left;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+.Beitrag {
+    background-color: #FFF;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	padding: 5%;
+	margin-bottom: 5%;
+}
+
+.Subheadline {
+    font-style: italic;
+    font-weight:900;
+    color:#333333;
+
+}
+
+
+.Seitenteil {
+    font-family:DINAlternate-Bold;
+    font-style: normal!important;
+    width:24%;
+    float:right;
+    margin-left: 4%;
+    margin-bottom:20px;
+    padding:2%;
+    border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+    background-color:#333333;
+    color:#FFF;
+}
+
+
+.Foot a {
+    width: 100%;
+	float: left;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	padding-left:20px;
+	background-color:#333333;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	color:#FFF;
+    text-decoration: none;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 5px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+
+
+.mobileonly {
+    display:none;
+}
+
+.desktoponly {
+    display:block;
+}
+
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+
+  }
+}
+*/
+
+@media screen and (max-width: 700px) {
+
+  .wrapper {
+    width: 90%;
+    margin: 10px auto;
+    }
+
+    body {
+    background-color:darkgrey;
+}
+
+    nav {
+	height: 120px;
+    text-align: center;
+}
+
+    nav ul {
+        margin: 0px auto;
+        padding: 0;
+    }
+
+ nav ul li {
+  text-align: center;
+    display: block;
+    list-style:none;
+    }
+
+nav ul li a {display:block; text-align: center; width:310px;
+    }
+
+    .Inhalt {
+        width: 100%;}
+
+    .Seitenteil {
+        width:100%;}
+
+.desktoponly {
+    display:none;
+}
+
+.mobileonly {
+    display:block;
+}
+
+}
